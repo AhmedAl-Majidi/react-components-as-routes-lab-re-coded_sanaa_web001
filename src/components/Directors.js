@@ -10,7 +10,7 @@ const Directors = () => {
           <div>
           <p>{director.name}</p>
           <ul>
-            {directors.movies.map( movie => {
+            {director.movies.map( movie => {
               return(
                 <li>{movie}</li>
               )
